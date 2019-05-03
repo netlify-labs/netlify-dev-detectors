@@ -9,6 +9,9 @@
     "prepublishOnly": "git push && git push --tags && gh-release",
     "version": "auto-changelog -p --template keepachangelog && git add README.md CHANGELOG.md"
   },
+  "files": [
+    "project-detectors"
+  ],
   "dependencies": {
     "netlify-cli-logo": "^1.0.0"
   },
