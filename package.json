@@ -1,0 +1,19 @@
+{
+  "name": "netlify-dev-detectors",
+  "version": "0.0.2",
+  "main": "index.js",
+  "repository": "https://github.com/netlify-labs/netlify-dev-detectors",
+  "author": "sw-yx <swyx@dontemail.me>",
+  "license": "MIT",
+  "scripts": {
+    "prepublishOnly": "git push && git push --tags && gh-release",
+    "version": "auto-changelog -p --template keepachangelog && git add README.md CHANGELOG.md"
+  },
+  "dependencies": {
+    "netlify-cli-logo": "^1.0.0"
+  },
+  "devDependencies": {
+    "auto-changelog": "^1.13.0",
+    "gh-release": "^3.5.0"
+  }
+}
