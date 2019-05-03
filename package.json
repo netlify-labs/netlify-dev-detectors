@@ -1,6 +1,6 @@
 {
   "name": "netlify-dev-detectors",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "repository": "https://github.com/netlify-labs/netlify-dev-detectors",
   "author": "sw-yx <swyx@dontemail.me>",
