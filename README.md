@@ -1,2 +1,2 @@
-# netlify-dev-detectors
-netlify-dev-detectors
+Deprecated.
+See https://github.com/netlify/framework-info instead.
